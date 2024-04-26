@@ -1,0 +1,60 @@
+LTspice 24.0.9 for Windows
+Circuit: * D:\Gabriel\Documents\Universite\S4\APP4\S4iAPP4_prob\xor_test.asc
+Start Time: Mon Mar 18 20:14:51 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node X2:N008 is floating.
+WARNING: Node X2:N005 is floating.
+WARNING: Node X2:N001 is floating.
+WARNING: Node X2:N002 is floating.
+WARNING: Node X2:N006 is floating.
+WARNING: Node X2:N007 is floating.
+WARNING: Node X2:N012 is floating.
+WARNING: Node X2:N011 is floating.
+
+WARNING: Less than two connections to node x2:n008.  This node is used by m:x2:11.
+WARNING: Less than two connections to node x2:n005.  This node is used by m:x2:4.
+WARNING: Less than two connections to node x2:n001.  This node is used by m:x2:1.
+WARNING: Less than two connections to node x2:n002.  This node is used by m:x2:2.
+WARNING: Less than two connections to node x2:n006.  This node is used by m:x2:3.
+WARNING: Less than two connections to node x2:n007.  This node is used by m:x2:5.
+WARNING: Less than two connections to node x2:n012.  This node is used by m:x2:6.
+WARNING: Less than two connections to node x2:n011.  This node is used by m:x2:7.
+Warning: Pd = 3.24e-13 is less than W.
+Warning: Ps = 3.888e-13 is less than W.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+t1: time=1.00042e-09 at 1.00042e-09
+t2: time=1.15634e-09 at 1.15634e-09
+t3: time=1.01043e-09 at 1.01043e-09
+t4: time=2.01264e-09 at 2.01264e-09
+transition_up: abs(t2-t1)=1.55922e-10
+transition_down: abs(t4-t3)=1.00221e-09
+
+Measurement "ratio" FAIL'ed
+
+Total elapsed time: 0.282 seconds.
+
